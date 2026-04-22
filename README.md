@@ -103,7 +103,7 @@ O código desenvolvido para o ESP32 está disponível em:
 
 🔗 Link do vídeo no YouTube (não listado):
 
-(INSIRA AQUI O LINK DO SEU VÍDEO)
+https://youtu.be/gFUpks5q5Mo
 
 
 ## 📈 Conclusão
