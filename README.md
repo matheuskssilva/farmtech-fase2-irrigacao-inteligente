@@ -74,8 +74,6 @@ farmtech-irrigacao-inteligente-fase2
 │
 ├── codigo-esp32/
 ├── imagens-circuito/
-├── python-api/ (opcional)
-├── analise-r/ (opcional)
 ├── README.md
 ```
 
@@ -103,28 +101,6 @@ O código desenvolvido para o ESP32 está disponível em:
 
 (INSIRA AQUI O LINK DO SEU VÍDEO)
 
----
-
-## 🚀 Funcionalidades Extras (Opcional)
-
-### 🌐 Integração com API
-
-Possível integração com API meteorológica para prever chuvas e evitar irrigação desnecessária.
-
-### 📊 Análise em R
-
-Utilização de dados históricos para apoiar decisões de irrigação com base estatística.
-
----
-
-## 👥 Integrantes do Grupo
-
-* Nome 1
-* Nome 2
-* Nome 3
-* Nome 4
-
----
 
 ## 📈 Conclusão
 
