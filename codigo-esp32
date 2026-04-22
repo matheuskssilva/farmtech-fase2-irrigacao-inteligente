@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "farmtech",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -100, "left": 200, "attrs": {} },
+    { "type": "wokwi-photoresistor-sensor", "id": "ldr", "top": 120, "left": 200, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnN",
+      "top": -120,
+      "left": -200,
+      "attrs": { "color": "green", "label": "N" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnP",
+      "top": -41.8,
+      "left": -201.6,
+      "attrs": { "color": "green", "label": "P" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnK",
+      "top": 44.6,
+      "left": -201.6,
+      "attrs": { "color": "green", "label": "K" }
+    },
+    { "type": "wokwi-led", "id": "led", "top": 80, "left": 100, "attrs": {} }
+  ],
+  "connections": [
+    [ "dht:VCC", "esp:3V3", "red", [] ],
+    [ "dht:GND", "esp:GND", "black", [] ],
+    [ "dht:SDA", "esp:15", "green", [] ],
+    [ "ldr:VCC", "esp:3V3", "red", [] ],
+    [ "ldr:GND", "esp:GND", "black", [] ],
+    [ "ldr:AO", "esp:34", "blue", [] ],
+    [ "btnN:1.l", "esp:GND", "black", [] ],
+    [ "btnN:2.r", "esp:14", "green", [] ],
+    [ "btnP:1.l", "esp:GND", "black", [] ],
+    [ "btnP:2.r", "esp:27", "green", [] ],
+    [ "btnK:1.l", "esp:GND", "black", [] ],
+    [ "btnK:2.r", "esp:26", "green", [] ],
+    [ "led:A", "esp:25", "green", [] ],
+    [ "led:C", "esp:GND", "black", [] ]
+  ],
+  "dependencies": {}
+}
