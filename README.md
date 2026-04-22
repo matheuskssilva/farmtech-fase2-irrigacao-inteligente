@@ -1,5 +1,9 @@
 # 🌱 FarmTech Solutions – Sistema de Irrigação Inteligente (Fase 2)
 
+Integrante:
+
+- Matheus Kauã da Silva
+
 ## 📌 Descrição do Projeto
 
 Este projeto tem como objetivo o desenvolvimento de um sistema de irrigação automatizado utilizando conceitos de IoT (Internet das Coisas), simulado na plataforma Wokwi com o microcontrolador ESP32.
